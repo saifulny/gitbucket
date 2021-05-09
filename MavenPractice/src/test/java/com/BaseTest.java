@@ -17,7 +17,8 @@ public class BaseTest {
 	Driver = new ChromeDriver();
 	
     Driver.get("http://www.google.com");
-		
+	
+    System.out.println("This is google");
 	}
 	
 //	@Test
